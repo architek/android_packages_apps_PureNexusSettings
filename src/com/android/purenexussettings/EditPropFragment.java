@@ -61,7 +61,7 @@ public class EditPropFragment extends Fragment {
             this.context = context;
             mOrigName = origname == null ? origname : origname.replaceAll(" ", "_");
             mNewName = newname == null ? newname : newname.replaceAll(" ", "_");
-            mNewKey = newkey == null ? newkey : newkey.replaceAll(" ", "_");
+            mNewKey = newkey;
             return this;
         }
 
